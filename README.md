@@ -1,1 +1,1 @@
-https://rinrisha.github.io/Belpoets/
+https://rinrisha.github.io/rinrisha.github.io/
