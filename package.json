@@ -2,7 +2,9 @@
   "name": "2lab",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://rinrisha.github.io/Belpoets/",
+  "homepage": "https://rinrisha.github.io/belpoets/",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
