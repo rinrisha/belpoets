@@ -19,6 +19,11 @@ import yk1 from '../img/kolas/yk1.jpg';
 import yk2 from '../img/kolas/yk2.jpg';
 import yk3 from '../img/kolas/yk3.jpg';
 
+import mb from '../img/bogdanovich/mb.jpg';
+import mbi1 from '../img/bogdanovich/mbi1.jpg';
+import mbi2 from '../img/bogdanovich/mbi2.jpg';
+import mbi3 from '../img/bogdanovich/mbi3.jpg';
+
 const poetsInfo = [
     {
         id: 1,
@@ -108,6 +113,29 @@ const poetsInfo = [
             latitude: 53.9093991787487
         },
         url: "/brovka"
+    },
+    {
+        id: 5,
+        imgPath: mb,
+        name: "Максим Богданович",
+        name_en: "Maxim Bogdanovich",
+        dateOfBirth: 1891,
+        dateOfDeath: 1917,
+        someText: "Белорусский поэт, публицист, литературовед, переводчик." ,
+            
+        photos: [
+            mbi1,
+            mbi2,
+            mbi3
+        ],
+        links: [
+            "https://www.youtube.com/embed/cFcuvXlvUnM"
+        ],
+        coordinates: {
+            longitude: 27.548602735447222,
+            latitude: 53.9093991787487
+        },
+        url: "/bogdanovich"
     },
 ];
 
